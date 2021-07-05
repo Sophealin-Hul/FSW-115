@@ -1,0 +1,58 @@
+html {
+    background-color: azure;
+    font-family: 'Zen Loop', cursive;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+li {
+    padding: 10px;
+    font-size: larger;
+    color: lightseagreen;
+    list-style-type: none;
+}
+#button {
+    position: relative;
+    background-color: lightblue;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+  
+#button:after {
+    content: "";
+    background: rgb(117, 172, 190);
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+  
+#button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+a {
+    display: flex;
+    font-size: larger;
+    text-decoration: none;
+    color: #3F5EFB;
+    margin-top: 10px;
+}
+
+    
+    
