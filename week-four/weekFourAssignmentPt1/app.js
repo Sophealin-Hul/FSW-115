@@ -5,7 +5,7 @@ axios.get("http://api.bryanuniversity.edu/sophealin/list/")
             list.textContent = response.data[i].name;
             document.body.appendChild(list);
             if(response.data[i].isComplete === true) {
-                list.textContent = response.data[i].name.strike();
+                list.style.textDecoration = "line-through";
             }
             else if (response.data[i].isComplete === false) {
                 list.textContent = response.data[i].name;
