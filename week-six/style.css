@@ -1,0 +1,13 @@
+* {
+    background-color: #32de84;
+}
+html {
+    margin-top: 180px;   
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+h1, h2, h3, h4 {
+    color: linen;
+}
+
